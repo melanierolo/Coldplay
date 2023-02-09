@@ -26,9 +26,17 @@ header {
   top: 0;
 }
 
+/*Logo*/
 .logo {
-  color: whitesmoke;
-  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__img {
+  height: 30px;
+  width: auto;
 }
 
 .nav {
