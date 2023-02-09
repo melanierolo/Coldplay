@@ -1,5 +1,58 @@
+/*---------------CSS------------------------*/
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*---------------Header-----------------*/
+header {
+  min-height: 60px;
+  background-color: #010201;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  /*sticky*/
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: whitesmoke;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item {
+  padding: 5px 20px;
+}
+.nav__link {
+  color: whitesmoke;
+}
+
+.nav__link:hover {
+  color: blueviolet;
+}
+
+main {
+  height: 1000px;
+  background-color: antiquewhite;
 }
