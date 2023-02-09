@@ -63,7 +63,35 @@ header {
 
 main {
   height: 1000px;
-  background-color: antiquewhite;
+  background-color: #f2f2f2;
+}
+
+/*-------------Hero section --------------------*/
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(138, 43, 226, 0.45),
+      rgba(138, 43, 226, 0.45)
+    ),
+    url(../assets/images/Coldplay-2022-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*center*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: 50px;
+  color: whitesmoke;
+  padding: 10px 0;
+}
+
+.hero__paragraph {
+  font-size: 30px;
+  color: whitesmoke;
 }
 
 /*---------------Footer-----------------*/
