@@ -28,6 +28,7 @@ header {
 
 .logo {
   color: whitesmoke;
+  text-align: center;
 }
 
 .nav {
@@ -55,4 +56,34 @@ header {
 main {
   height: 1000px;
   background-color: antiquewhite;
+}
+
+/*---------------Footer-----------------*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #373737;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer__hr {
+  border: 1px solid slategray;
+  width: 90%;
+  margin: 10px 0;
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.footer__icon {
+  height: 30px;
+  width: auto;
+  padding: 0 10px;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: whitesmoke;
 }
