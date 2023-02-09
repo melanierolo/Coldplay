@@ -69,6 +69,7 @@ main {
 /*-------------Hero section --------------------*/
 .hero {
   height: 100vh;
+  padding: 10px;
   background-image: linear-gradient(
       rgba(138, 43, 226, 0.45),
       rgba(138, 43, 226, 0.45)
@@ -76,7 +77,8 @@ main {
     url(../assets/images/Coldplay-2022-banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  /*center*/
+  background-position: top center; /*image position*/
+  /*center text*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +88,7 @@ main {
 .hero__title {
   font-size: 50px;
   color: whitesmoke;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .hero__paragraph {
