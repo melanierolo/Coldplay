@@ -217,13 +217,16 @@ main {
   width: 300px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-areas: " icon subtitle" " icon  para";
+  grid-template-areas: "icon subtitle" "icon  para";
 }
 .section-links__icon {
-  height: 80px;
-  width: auto;
   padding: 0 10px;
   grid-area: icon;
+}
+
+.section-links__icon img {
+  height: 80px;
+  width: auto;
 }
 
 .section-links__subtitle {
