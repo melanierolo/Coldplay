@@ -149,7 +149,7 @@ main {
 }
 /*--------------PAGE: SUBSCRIBE----------*/
 /*---------------Section-----------------*/
-/*form*/
+/*---form---*/
 .section {
   display: flex;
   justify-content: center;
@@ -203,7 +203,7 @@ main {
   background-color: rgb(90, 30, 145);
 }
 
-/*----------------Oficial link-----------*/
+/*---Oficial link---*/
 .section-links__title {
   padding: 50px 0;
   font-style: normal;
@@ -212,7 +212,7 @@ main {
   line-height: 41px;
   text-align: center;
 }
-/*item*/
+/*item - grid*/
 .section-links__item {
   width: 300px;
   display: grid;
@@ -243,6 +243,44 @@ main {
   font-size: 24px;
   line-height: 28px;
   grid-area: para;
+}
+/*----items grid ----*/
+.section-links__items {
+  padding: 0 0 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-row-gap: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .section-links__items {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+  .section-links__items {
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-links__items {
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    padding: 0 0 40px;
+  }
+  .section-links__item {
+    width: fit-content;
+  }
+  .section-links__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-links__icon img {
+    height: 30px;
+    width: auto;
+  }
 }
 
 /*---------------Footer-----------------*/
