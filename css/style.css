@@ -147,8 +147,9 @@ main {
     border-radius: 10px;
   }
 }
+/*--------------PAGE: SUBSCRIBE----------*/
 /*---------------Section-----------------*/
-/*form*/
+/*---form---*/
 .section {
   display: flex;
   justify-content: center;
@@ -158,6 +159,11 @@ main {
 }
 .subtitle {
   padding: 10px 0 10px 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
 }
 
 .paragraph {
@@ -200,6 +206,86 @@ main {
 .form__button:hover {
   color: whitesmoke;
   background-color: rgb(90, 30, 145);
+}
+
+/*---Oficial link---*/
+.section-links__title {
+  padding: 50px 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+}
+/*item - grid*/
+.section-links__item {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "icon subtitle" "icon  para";
+}
+.section-links__icon {
+  padding: 0 10px;
+  grid-area: icon;
+}
+
+.section-links__icon img {
+  height: 80px;
+  width: auto;
+}
+
+.section-links__subtitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33px;
+  grid-area: subtitle;
+}
+
+.section-links__para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  grid-area: para;
+}
+/*----items grid ----*/
+.section-links__items {
+  padding: 0 0 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-row-gap: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .section-links__items {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+  .section-links__items {
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-links__items {
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    padding: 0 0 40px;
+  }
+  .section-links__item {
+    width: fit-content;
+  }
+  .section-links__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-links__icon img {
+    height: 30px;
+    width: auto;
+  }
 }
 
 /*---------------Footer-----------------*/
