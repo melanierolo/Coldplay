@@ -147,6 +147,7 @@ main {
     border-radius: 10px;
   }
 }
+/*--------------PAGE: SUBSCRIBE----------*/
 /*---------------Section-----------------*/
 /*form*/
 .section {
@@ -200,6 +201,45 @@ main {
 .form__button:hover {
   color: whitesmoke;
   background-color: rgb(90, 30, 145);
+}
+
+/*----------------Oficial link-----------*/
+.section-links__title {
+  padding: 50px 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+}
+/*item*/
+.section-links__item {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: " icon subtitle" " icon  para";
+}
+.section-links__icon {
+  height: 80px;
+  width: auto;
+  padding: 0 10px;
+  grid-area: icon;
+}
+
+.section-links__subtitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33px;
+  grid-area: subtitle;
+}
+
+.section-links__para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  grid-area: para;
 }
 
 /*---------------Footer-----------------*/
