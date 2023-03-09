@@ -1,8 +1,35 @@
-/*---------------CSS------------------------*/
+@font-face {
+  font-family: "roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
+    url("../assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype"),
+    url("../assets/fonts/Roboto/Roboto-Italic.ttf") format("truetype"),
+    url("../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"),
+    url("../assets/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+}
+
+/*---------------Universal Styles------------------------*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: lighter;
 }
 
 li {
@@ -157,10 +184,6 @@ main {
 }
 
 .section-albums__title {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 35px;
-  line-height: 41px;
   text-align: center;
   padding: 0 0 50px;
 }
@@ -294,10 +317,6 @@ main {
 /*---Oficial link---*/
 .section-links__title {
   padding: 50px 0;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 35px;
-  line-height: 41px;
   text-align: center;
 }
 /*item - grid*/
@@ -326,10 +345,6 @@ main {
 }
 
 .section-links__para {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
   grid-area: para;
 }
 /*----items grid ----*/
