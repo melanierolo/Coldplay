@@ -253,6 +253,16 @@ main {
   height: auto;
 }
 
+/*---------------Section: Videos-----------------*/
+.section-videos {
+  padding: 50px 20px;
+}
+
+.section-videos__title {
+  text-align: center;
+  padding: 0 0 50px;
+}
+
 /*--------------PAGE: SUBSCRIBE----------*/
 /*---------------Section-----------------*/
 /*---form---*/
