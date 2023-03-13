@@ -76,6 +76,9 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .nav__item {
@@ -251,6 +254,16 @@ main {
 .card__icon img {
   width: 30px;
   height: auto;
+}
+
+/*---------------Section: Videos-----------------*/
+.section-videos {
+  padding: 50px 20px;
+}
+
+.section-videos__title {
+  text-align: center;
+  padding: 0 0 50px;
 }
 
 /*--------------PAGE: SUBSCRIBE----------*/
