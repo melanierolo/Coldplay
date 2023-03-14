@@ -94,6 +94,7 @@ header {
 
 main {
   background-color: #f2f2f2;
+  min-height: 1000px;
 }
 
 /*-------------Hero section --------------------*/
@@ -263,7 +264,7 @@ main {
   .section-about {
     padding: 50px 30px;
     grid-template-areas:
-      "header header  header header header"
+      "header header  header header "
       "content content  img img img"
       "content content  img img img";
   }
