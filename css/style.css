@@ -179,6 +179,128 @@ main {
   }
 }
 
+/*--------------PAGE: ABOUT----------------------*/
+/*---------------Section: About-----------------*/
+.section-about {
+  padding: 50px 20px;
+  display: grid;
+}
+.section-about__header {
+  grid-area: header;
+}
+
+.section-about__title {
+  padding: 0 20px 50px;
+  text-align: center;
+}
+
+.section-about__content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-about__para {
+  padding: 0 20px 8px;
+}
+
+.section-about__list {
+  padding: 0 20px;
+}
+
+.section-about__list li {
+  list-style: none;
+}
+
+.section-about__list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: blueviolet; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 1em; /* Also needed for space (tweak if needed) */
+}
+
+.section-about__figure {
+  grid-area: img;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-about__image {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  border-radius: 40px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 5px 5px 14px #bebebe, -5px -5px 14px #ffffff;
+}
+
+@media screen and (max-width: 970px) {
+  .section-about {
+    padding: 50px 20px;
+    grid-template-areas:
+      "header header header"
+      "content content content"
+      "content content content"
+      "img img img"
+      "img img img";
+  }
+  .section-about__image {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .section-about__figure {
+    padding: 0px;
+  }
+  .section-about__figure {
+    align-items: start;
+  }
+  .section-about {
+    padding: 50px 30px;
+    grid-template-areas:
+      "header header  header header "
+      "content content  img img img"
+      "content content  img img img";
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-about {
+    padding: 50px 40px;
+    grid-template-areas:
+      "header  header  header header"
+      "content content img    img"
+      "content content img    img"
+      "content content img    img"
+      "content content img    img";
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section-about__figure {
+    padding: 0px;
+  }
+  .section-about__content {
+    justify-content: start;
+  }
+
+  .section-about {
+    padding: 50px 50px;
+    grid-template-areas:
+      "header  header  header header header"
+      "content content content img    img"
+      "content content content img    img"
+      "content content content img    img"
+      "content content content img    img";
+  }
+}
+
 /*--------------PAGE: MUSIC----------------------*/
 /*---------------Section: Albums-----------------*/
 .section-albums {
