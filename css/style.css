@@ -179,6 +179,42 @@ main {
   }
 }
 
+/*--------------PAGE: ABOUT----------------------*/
+/*---------------Section: About-----------------*/
+.section-about {
+  padding: 50px 20px;
+}
+
+.section-about__title {
+  padding: 0 0 50px;
+  text-align: center;
+}
+
+.section-about__para {
+  padding: 0 0 8px 0;
+}
+
+.section-about__list {
+  padding: 0 20px;
+}
+
+.section-about__list li {
+  list-style: none;
+}
+
+.section-about__list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: blueviolet; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 1em; /* Also needed for space (tweak if needed) */
+}
+
+.section-about__img {
+  border-radius: 25px;
+}
+
 /*--------------PAGE: MUSIC----------------------*/
 /*---------------Section: Albums-----------------*/
 .section-albums {
