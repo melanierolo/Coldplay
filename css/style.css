@@ -30,6 +30,7 @@ p {
   font-size: 20px;
   line-height: 28px;
   font-weight: lighter;
+  line-height: 30px;
 }
 
 li {
@@ -132,13 +133,19 @@ main {
   display: flex;
 }
 
+.wel-article__title {
+  padding: 0 0 40px 0;
+}
 .wel-article {
   flex: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 40px;
+  padding: 50px 40px;
+}
+.wel-article__paragraph {
+  padding: 0 0 16px 0;
 }
 
 .wel-article__btn {
@@ -204,6 +211,7 @@ main {
 
 .section-about__list li {
   list-style: none;
+  line-height: 30px;
 }
 
 .section-about__list li::before {
