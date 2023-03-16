@@ -375,6 +375,7 @@ main {
 
 .section-news__art {
   flex: 0 1 40%;
+  padding: 8px;
 }
 
 .section-news__img {
