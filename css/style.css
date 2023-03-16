@@ -551,6 +551,12 @@ main {
   background-color: blueviolet;
 }
 
+.btn--secondary {
+  background-color: #eee;
+  color: #010201;
+  border: 2px solid blueviolet;
+}
+
 .btn:hover {
   filter: brightness(85%);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
