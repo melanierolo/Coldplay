@@ -142,14 +142,7 @@ main {
 }
 
 .wel-article__btn {
-  font-size: 0.85rem;
-  border-radius: 10px;
-  border: 1px solid #acacac;
-  margin-bottom: 1rem;
-  width: 200px;
-  height: 50px;
-  color: whitesmoke;
-  background-color: blueviolet;
+  margin: 10px 0;
 }
 
 .wel-img {
@@ -398,19 +391,6 @@ main {
 
 .form__button {
   align-self: flex-end;
-  font-size: 0.85rem;
-  border-radius: 10px;
-  border: 1px solid #acacac;
-  margin-bottom: 1rem;
-  width: 150px;
-  height: 50px;
-  color: whitesmoke;
-  background-color: blueviolet;
-}
-
-.form__button:hover {
-  color: whitesmoke;
-  background-color: rgb(90, 30, 145);
 }
 
 /*---Oficial link---*/
@@ -550,6 +530,30 @@ main {
 .card__icon img {
   width: 30px;
   height: auto;
+}
+
+/*button*/
+.btn {
+  font-size: 0.85rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 15px 0;
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn--primary {
+  border: 1px solid #acacac;
+  color: whitesmoke;
+  background-color: blueviolet;
+}
+
+.btn:hover {
+  filter: brightness(85%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /*---------------Footer-----------------*/
