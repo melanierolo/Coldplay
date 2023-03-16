@@ -294,10 +294,10 @@ main {
     padding: 50px 50px;
     grid-template-areas:
       "header  header  header header header"
-      "content content content img    img"
-      "content content content img    img"
-      "content content content img    img"
-      "content content content img    img";
+      "content content content img img"
+      "content content content img img"
+      "content content content img img"
+      "content content content img img";
   }
 }
 /*----------Section: Members---------------------*/
@@ -337,6 +337,17 @@ main {
 }
 
 .section-videos__title {
+  text-align: center;
+  padding: 0 0 50px;
+}
+
+/*------------Section: Collaboration--------------*/
+.section-collaboration {
+  padding: 50px 20px;
+  background-color: #d9d9d9;
+}
+
+.section-collaboration__title {
   text-align: center;
   padding: 0 0 50px;
 }
