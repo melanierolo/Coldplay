@@ -106,7 +106,7 @@ main {
       rgba(138, 43, 226, 0.45),
       rgba(138, 43, 226, 0.45)
     ),
-    url(../assets/images/Coldplay-2022-banner.webp);
+    url(../assets/images/Coldplay-2022-770x463.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center; /*image position*/
@@ -126,6 +126,27 @@ main {
 .hero__paragraph {
   font-size: 30px;
   color: whitesmoke;
+}
+
+/*mobile first*/
+@media screen and (max-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(138, 43, 226, 0.45),
+        rgba(138, 43, 226, 0.45)
+      ),
+      url(../assets/images/Coldplay-2022-420x623.webp);
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(138, 43, 226, 0.45),
+        rgba(138, 43, 226, 0.45)
+      ),
+      url(../assets/images/Coldplay-2022-banner.webp);
+  }
 }
 
 /*--------------Section: Welcome----------*/
