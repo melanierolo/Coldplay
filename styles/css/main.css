@@ -1,7 +1,7 @@
 /*base*/
 @font-face {
   font-family: "roboto";
-  src: url("../../../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype"), url("../../../assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype"), url("../../../assets/fonts/Roboto/Roboto-Italic.ttf") format("truetype"), url("../../../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"), url("../../../assets/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype"); }
+  src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype"), url("../../assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype"), url("../../assets/fonts/Roboto/Roboto-Italic.ttf") format("truetype"), url("../../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"), url("../../assets/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype"); }
 
 /*reset*/
 * {
@@ -123,6 +123,39 @@ header {
     .side-menu:checked ~ .hamb .hamb__line::after {
       transform: rotate(45deg);
       top: 0; } }
+
+/*-------------Hero section --------------------*/
+.hero {
+  height: 100vh;
+  padding: 10px;
+  background-image: linear-gradient(rgba(138, 43, 226, 0.45), rgba(138, 43, 226, 0.45)), url(../../assets/images/Coldplay-2022-770x463.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  /*image position*/
+  /*center text*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.hero__title {
+  font-size: 50px;
+  color: whitesmoke;
+  padding: 10px; }
+
+.hero__paragraph {
+  font-size: 30px;
+  color: whitesmoke; }
+
+/*mobile first*/
+@media screen and (max-width: 480px) {
+  .hero {
+    background-image: linear-gradient(rgba(138, 43, 226, 0.45), rgba(138, 43, 226, 0.45)), url(../../assets/images/Coldplay-2022-420x623.webp); } }
+
+@media screen and (min-width: 970px) {
+  .hero {
+    background-image: linear-gradient(rgba(138, 43, 226, 0.45), rgba(138, 43, 226, 0.45)), url(../../assets/images/Coldplay-2022-banner.webp); } }
 
 body {
   font-family: "roboto", sans-serif;
