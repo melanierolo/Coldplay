@@ -13,6 +13,9 @@
 @import "layout/welcome";
 @import "layout/footer";
 
+/*components*/
+@import "components/button";
+
 body {
   font-family: "roboto", sans-serif;
   font-weight: 400;
