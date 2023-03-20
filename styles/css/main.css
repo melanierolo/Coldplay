@@ -1,10 +1,10 @@
 @font-face {
   font-family: "roboto";
-  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
-    url("../assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype"),
-    url("../assets/fonts/Roboto/Roboto-Italic.ttf") format("truetype"),
-    url("../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"),
-    url("../assets/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+  src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
+    url("../../assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype"),
+    url("../../assets/fonts/Roboto/Roboto-Italic.ttf") format("truetype"),
+    url("../../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"),
+    url("../../assets/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
 }
 
 /*---------------Universal Styles------------------------*/
@@ -210,7 +210,7 @@ main {
       rgba(138, 43, 226, 0.45),
       rgba(138, 43, 226, 0.45)
     ),
-    url(../assets/images/Coldplay-2022-770x463.webp);
+    url(../../assets/images/Coldplay-2022-770x463.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center; /*image position*/
@@ -239,7 +239,7 @@ main {
         rgba(138, 43, 226, 0.45),
         rgba(138, 43, 226, 0.45)
       ),
-      url(../assets/images/Coldplay-2022-420x623.webp);
+      url(../../assets/images/Coldplay-2022-420x623.webp);
   }
 }
 
@@ -249,7 +249,7 @@ main {
         rgba(138, 43, 226, 0.45),
         rgba(138, 43, 226, 0.45)
       ),
-      url(../assets/images/Coldplay-2022-banner.webp);
+      url(../../assets/images/Coldplay-2022-banner.webp);
   }
 }
 

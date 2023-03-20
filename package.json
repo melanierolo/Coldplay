@@ -1,0 +1,29 @@
+{
+  "name": "coldplay",
+  "version": "1.0.0",
+  "description": "Coldplay fan page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch styles/scss -o styles/css",
+    "comentario": "En el comando anterior - npm run scss - lo que estamos diciendo es que mire la carpeta styles/scss lo convierta a styles/css en sus carpetas respectivas. En otras palabras, convierte sass en css."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanierolo/Coldplay.git"
+  },
+  "keywords": [
+    "Coldplay",
+    "fan",
+    "page",
+    "fan",
+    "website",
+    "band"
+  ],
+  "author": "Melanie Rodas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melanierolo/Coldplay/issues"
+  },
+  "homepage": "https://github.com/melanierolo/Coldplay#readme"
+}
