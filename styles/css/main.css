@@ -157,6 +157,44 @@ header {
   .hero {
     background-image: linear-gradient(rgba(138, 43, 226, 0.45), rgba(138, 43, 226, 0.45)), url(../../assets/images/Coldplay-2022-banner.webp); } }
 
+/*--------------Section: Welcome----------*/
+.wel {
+  display: flex; }
+
+.wel-article {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 40px; }
+  .wel-article__title {
+    padding: 0 0 40px 0; }
+  .wel-article__paragraph {
+    padding: 0 0 16px 0; }
+  .wel-article__btn {
+    margin: 10px 0; }
+
+.wel-img {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #010201; }
+  .wel-img img {
+    width: 500px;
+    border-radius: 10px; }
+
+@media screen and (max-width: 950px) {
+  .wel {
+    padding: 50px 0 0;
+    flex-direction: column; }
+  .wel-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; } }
+
 body {
   font-family: "roboto", sans-serif;
   font-weight: 400;

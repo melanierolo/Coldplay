@@ -23,8 +23,14 @@ $breakpoints: (
   }
 }
 
-@mixin lg {
-  @media screen and (min-width: map-get($breakpoints,"sm")) {
+@mixin lg-min {
+  @media screen and (min-width: map-get($breakpoints,"lg")) {
+    @content;
+  }
+}
+
+@mixin lg-max {
+  @media screen and (max-width: map-get($breakpoints,"lg")) {
     @content;
   }
 }
