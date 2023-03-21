@@ -18,12 +18,14 @@
 @import "layout/collaborations";
 @import "layout/news";
 @import "layout/subscribe";
+@import "layout/links";
 @import "layout/footer";
 
 /*components*/
 @import "components/button";
 @import "components/card";
 @import "components/form";
+
 body {
   font-family: "roboto", sans-serif;
   font-weight: 400;

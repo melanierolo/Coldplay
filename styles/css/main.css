@@ -360,6 +360,60 @@ header {
 .paragraph {
   padding: 10px 0 20px 0; }
 
+/*---Oficial link---*/
+.section-links {
+  /*item - grid*/
+  /*----items grid ----*/ }
+  .section-links__title {
+    padding: 50px 0;
+    text-align: center; }
+  .section-links__item {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "icon subtitle" "icon  para"; }
+  .section-links__icon {
+    padding: 0 10px;
+    grid-area: icon; }
+  .section-links__icon img {
+    height: 60px;
+    width: auto; }
+  .section-links__subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+    grid-area: subtitle; }
+  .section-links__para {
+    grid-area: para; }
+  .section-links__items {
+    padding: 0 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 50px; }
+
+@media screen and (max-width: 992px) {
+  .section-links__items {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    padding: 0 0 40px; } }
+
+@media screen and (max-width: 600px) {
+  .section-links__items {
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    padding: 0 0 40px; }
+  .section-links__item {
+    width: fit-content; }
+  .section-links__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .section-links__icon img {
+    height: 30px;
+    width: auto; } }
+
 /*---------------Footer-----------------*/
 .footer {
   display: flex;
