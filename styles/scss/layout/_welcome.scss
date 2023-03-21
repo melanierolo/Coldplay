@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@include screen-lg-max {
   .wel {
     padding: 50px 0 0;
     flex-direction: column;

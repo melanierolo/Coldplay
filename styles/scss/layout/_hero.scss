@@ -29,7 +29,7 @@
 }
 
 /*mobile first*/
-@media screen and (max-width: 480px) {
+@include screen-sm-max {
   .hero {
     background-image: linear-gradient(
         rgba(138, 43, 226, 0.45),
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 970px) {
+@include screen-lg-min {
   .hero {
     background-image: linear-gradient(
         rgba(138, 43, 226, 0.45),

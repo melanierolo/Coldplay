@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@include screen-lg-max {
   .section-news {
     &__content {
       flex-direction: column;
