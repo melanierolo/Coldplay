@@ -288,6 +288,29 @@ header {
   align-items: center;
   gap: 15px; }
 
+/*---------------Section: Albums-----------------*/
+.section-albums {
+  padding: 50px 20px;
+  background-color: #d9d9d9; }
+  .section-albums__title {
+    text-align: center;
+    padding: 0 0 50px; }
+
+/*---------------Section: Videos-----------------*/
+.section-videos {
+  padding: 50px 20px; }
+  .section-videos__title {
+    text-align: center;
+    padding: 0 0 50px; }
+
+/*------------Section: Collaboration--------------*/
+.section-collaboration {
+  padding: 50px 20px;
+  background-color: #d9d9d9; }
+  .section-collaboration__title {
+    text-align: center;
+    padding: 0 0 50px; }
+
 /*---------------Footer-----------------*/
 .footer {
   display: flex;
