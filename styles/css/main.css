@@ -273,6 +273,21 @@ header {
     .section-about__content {
       justify-content: start; } }
 
+/*----------Section: Members---------------------*/
+.section-members {
+  background-color: #d9d9d9;
+  padding: 50px 20px; }
+  .section-members__title {
+    padding: 0 20px 50px;
+    text-align: center; }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; }
+
 /*---------------Footer-----------------*/
 .footer {
   display: flex;
