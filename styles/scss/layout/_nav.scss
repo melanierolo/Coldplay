@@ -32,6 +32,10 @@
     &:hover {
       color: blueviolet;
     }
+    &--active {
+      color: $secondary-color;
+      font-weight: 600;
+    }
   }
 }
 
@@ -50,7 +54,7 @@
     position: fixed;
     top: 80px;
     left: 0;
-    background-color: #373737;
+    background-color: #3c2758;
     overflow: hidden;
 
     &__list {
@@ -65,9 +69,13 @@
       flex-wrap: nowrap;
       display: block;
       padding: 30px;
-      color: whitesmoke;
+      color: $primary-color;
       &:hover {
-        background-color: #85888c;
+        background-color: #5b4e77;
+      }
+      &--active {
+        color: $secondary-color;
+        font-weight: 600;
       }
     }
   }

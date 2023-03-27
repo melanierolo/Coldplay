@@ -66,6 +66,9 @@ header {
     color: whitesmoke; }
     .nav__link:hover {
       color: blueviolet; }
+    .nav__link--active {
+      color: blueviolet;
+      font-weight: 600; }
 
 /*-- Hamburger icon */
 .side-menu {
@@ -81,7 +84,7 @@ header {
     position: fixed;
     top: 80px;
     left: 0;
-    background-color: #373737;
+    background-color: #3c2758;
     overflow: hidden; }
     .nav__list {
       flex-wrap: nowrap;
@@ -95,7 +98,10 @@ header {
       padding: 30px;
       color: whitesmoke; }
       .nav__link:hover {
-        background-color: #85888c; }
+        background-color: #5b4e77; }
+      .nav__link--active {
+        color: blueviolet;
+        font-weight: 600; }
   .nav {
     max-height: 0;
     transition: max-height 0.5s ease-out; }
