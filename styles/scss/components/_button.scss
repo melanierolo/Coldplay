@@ -11,15 +11,15 @@
   transition: all 0.2s;
 
   &--primary {
-    border: 1px solid #acacac;
-    color: whitesmoke;
-    background-color: blueviolet;
+    border: 1px solid $btn-border-color-prim;
+    color: $btn-color-prim;
+    background-color: $btn-bg-color-prim;
   }
 
   &--secondary {
-    background-color: #eee;
-    color: #010201;
-    border: 2px solid blueviolet;
+    border: 2px solid $btn-border-color-sec;
+    color: $btn-color-sec;
+    background-color: $btn-bg-color-sec;
   }
 
   &:hover {

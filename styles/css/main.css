@@ -10,13 +10,26 @@
   margin: 0;
   box-sizing: border-box; }
 
+/*------------------------------------
+-----------------COLORS---------------
+------------------------------------*/
+/*--SECTION--*/
+/*--FORM--*/
+/*--CARD--*/
+/*--BUTTON--*/
+/*primary*/
+/*secondary*/
+/*--------------------------------------
+----------------TYPOGRAPHY--------------
+--------------------------------------*/
+/**Font Sizing*/
 /*utilities*/
 /*Media queries - Landon Schropp’s technique*/
 /*layout*/
 /*---------------Header-----------------*/
 header {
   min-height: 60px;
-  background-color: #010201;
+  background-color: #1d0039;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,7 +104,7 @@ header {
     cursor: pointer;
     float: right;
     padding: 40px 20px;
-    background: #010201; }
+    background: #1d0039; }
     .hamb__line {
       background: whitesmoke;
       display: block;
@@ -142,18 +155,31 @@ header {
   align-items: center; }
 
 .hero__title {
-  font-size: 50px;
+  font-size: 64px;
+  font-weight: 700;
   color: whitesmoke;
-  padding: 10px; }
+  padding: 20px; }
 
 .hero__paragraph {
-  font-size: 30px;
-  color: whitesmoke; }
+  font-size: 32px;
+  line-height: 1.5;
+  color: whitesmoke;
+  padding: 10px; }
 
 /*mobile first*/
 @media screen and (max-width: 570px) {
   .hero {
-    background-image: linear-gradient(rgba(138, 43, 226, 0.45), rgba(138, 43, 226, 0.45)), url(../../assets/images/Coldplay-2022-420x623.webp); } }
+    background-image: linear-gradient(rgba(138, 43, 226, 0.45), rgba(138, 43, 226, 0.45)), url(../../assets/images/Coldplay-2022-420x623.webp); }
+  .hero__title {
+    font-size: 56px; }
+  .hero__paragraph {
+    font-size: 32px; } }
+
+@media screen and (max-width: 770px) {
+  .hero__title {
+    font-size: 48px; }
+  .hero__paragraph {
+    font-size: 20px; } }
 
 @media screen and (min-width: 970px) {
   .hero {
@@ -329,6 +355,8 @@ header {
   .section-news__art {
     flex: 0 1 40%;
     padding: 8px; }
+    .section-news__art h3 {
+      padding: 0 0 10px 0; }
   .section-news__img {
     flex: 0 1 40%; }
   .section-news__img img {
@@ -347,7 +375,7 @@ header {
 .section {
   display: flex;
   justify-content: center;
-  padding: 50px 10px;
+  padding: 50px 20px;
   background-color: #d9d9d9;
   text-align: center; }
 
@@ -420,11 +448,11 @@ header {
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: #373737;
+  background-color: #3c2758;
   align-items: center;
   padding: 10px; }
   .footer__hr {
-    border: 1px solid slategray;
+    border: 1px solid #5b4e77;
     width: 90%;
     margin: 10px 0; }
   .footer__list {
@@ -456,9 +484,9 @@ header {
     color: whitesmoke;
     background-color: blueviolet; }
   .btn--secondary {
-    background-color: #eee;
+    border: 2px solid blueviolet;
     color: #010201;
-    border: 2px solid blueviolet; }
+    background-color: #eee; }
   .btn:hover {
     filter: brightness(85%);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
@@ -537,14 +565,17 @@ body {
 
 h2 {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 36px;
   line-height: 41px; }
+
+h3 {
+  font-size: 26px;
+  line-height: 1.2; }
 
 p {
   font-size: 20px;
-  line-height: 28px;
-  font-weight: lighter;
-  line-height: 30px; }
+  line-height: 1.6;
+  font-weight: lighter; }
 
 li {
   list-style-type: none; }

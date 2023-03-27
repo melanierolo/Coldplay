@@ -83,9 +83,9 @@
     cursor: pointer;
     float: right;
     padding: 40px 20px;
-    background: #010201;
+    background: $header-bg;
     &__line {
-      background: whitesmoke;
+      background: $primary-color;
       display: block;
       height: 2px;
       position: relative;
@@ -93,7 +93,7 @@
 
       &::before,
       &::after {
-        background: whitesmoke;
+        background: $primary-color;
         content: "";
         display: block;
         height: 100%;

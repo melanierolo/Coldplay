@@ -18,14 +18,17 @@
 }
 
 .hero__title {
-  font-size: 50px;
+  font-size: 64px;
+  font-weight: 700;
   color: whitesmoke;
-  padding: 10px;
+  padding: 20px;
 }
 
 .hero__paragraph {
-  font-size: 30px;
+  font-size: 32px;
+  line-height: 1.5;
   color: whitesmoke;
+  padding: 10px;
 }
 
 /*mobile first*/
@@ -36,6 +39,23 @@
         rgba(138, 43, 226, 0.45)
       ),
       url(../../assets/images/Coldplay-2022-420x623.webp);
+  }
+  .hero__title {
+    font-size: 56px;
+  }
+
+  .hero__paragraph {
+    font-size: 32px;
+  }
+}
+
+@include screen-md-max {
+  .hero__title {
+    font-size: 48px;
+  }
+
+  .hero__paragraph {
+    font-size: 20px;
   }
 }
 

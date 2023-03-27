@@ -1,7 +1,7 @@
 /*---------------Header-----------------*/
 header {
   min-height: 60px;
-  background-color: #010201;
+  background-color: $header-bg;
   display: flex;
   align-items: center;
   justify-content: space-between;

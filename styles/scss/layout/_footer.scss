@@ -2,12 +2,12 @@
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: #373737;
+  background-color: $footer-bg;
   align-items: center;
   padding: 10px;
 
   &__hr {
-    border: 1px solid slategray;
+    border: 1px solid $footer-hr;
     width: 90%;
     margin: 10px 0;
   }
