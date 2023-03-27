@@ -464,7 +464,9 @@ header {
     width: auto;
     padding: 0 10px; }
   .footer__copyright {
+    font-size: 16px;
     text-align: center;
+    margin: auto;
     color: #f5f5f5; }
 
 /*components*/
