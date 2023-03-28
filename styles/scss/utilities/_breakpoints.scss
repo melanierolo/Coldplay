@@ -1,0 +1,62 @@
+/*Media queries - Landon Schropp’s technique*/
+
+$breakpoints-xs: 0px;
+$breakpoints-sm: 570px;
+$breakpoints-md: 770px;
+$breakpoints-lg: 970px;
+$breakpoints-xl: 1200px;
+$breakpoints-xxl: 1400px;
+
+@mixin screen-xs-min {
+  @media screen and (min-width: #{$breakpoints-xs}) {
+    @content;
+  }
+}
+
+@mixin screen-sm-min {
+  @media screen and (min-width: #{$breakpoints-sm}) {
+    @content;
+  }
+}
+
+@mixin screen-sm-max {
+  @media screen and (max-width: #{$breakpoints-sm}) {
+    @content;
+  }
+}
+
+@mixin screen-md-max {
+  @media screen and (max-width: #{$breakpoints-md}) {
+    @content;
+  }
+}
+
+@mixin screen-lg-min {
+  @media screen and (min-width: #{$breakpoints-lg}) {
+    @content;
+  }
+}
+
+@mixin screen-lg-max {
+  @media screen and (max-width: #{$breakpoints-lg}) {
+    @content;
+  }
+}
+
+@mixin screen-xl-min {
+  @media screen and (min-width: #{$breakpoints-xl}) {
+    @content;
+  }
+}
+
+@mixin screen-xxl-min {
+  @media screen and (min-width: #{$breakpoints-xxl}) {
+    @content;
+  }
+}
+
+@mixin breakpoint($bp: 0) {
+  @media screen and (min-width: $bp) {
+    @content;
+  }
+} ;

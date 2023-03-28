@@ -1,0 +1,70 @@
+/*-------------Hero section --------------------*/
+.hero {
+  height: 100vh;
+  padding: 10px;
+  background-image: linear-gradient(
+      rgba(138, 43, 226, 0.45),
+      rgba(138, 43, 226, 0.45)
+    ),
+    url(../../assets/images/Coldplay-2022-770x463.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center; /*image position*/
+  /*center text*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: 64px;
+  font-weight: 700;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.hero__paragraph {
+  font-size: 32px;
+  line-height: 1.5;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+/*mobile first*/
+@include screen-sm-max {
+  .hero {
+    background-image: linear-gradient(
+        rgba(138, 43, 226, 0.45),
+        rgba(138, 43, 226, 0.45)
+      ),
+      url(../../assets/images/Coldplay-2022-420x623.webp);
+  }
+  .hero__title {
+    font-size: 56px;
+  }
+
+  .hero__paragraph {
+    font-size: 32px;
+  }
+}
+
+@include screen-md-max {
+  .hero__title {
+    font-size: 48px;
+  }
+
+  .hero__paragraph {
+    font-size: 20px;
+  }
+}
+
+@include screen-lg-min {
+  .hero {
+    background-image: linear-gradient(
+        rgba(138, 43, 226, 0.45),
+        rgba(138, 43, 226, 0.45)
+      ),
+      url(../../assets/images/Coldplay-2022-banner.webp);
+  }
+}

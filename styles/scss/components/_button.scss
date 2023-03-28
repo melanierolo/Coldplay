@@ -1,0 +1,29 @@
+/*button*/
+.btn {
+  font-size: 0.85rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 15px 0;
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &--primary {
+    border: 1px solid $btn-border-color-prim;
+    color: $btn-color-prim;
+    background-color: $btn-bg-color-prim;
+  }
+
+  &--secondary {
+    border: 2px solid $btn-border-color-sec;
+    color: $btn-color-sec;
+    background-color: $btn-bg-color-sec;
+  }
+
+  &:hover {
+    filter: brightness(85%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}

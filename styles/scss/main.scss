@@ -1,0 +1,63 @@
+/*base*/
+@import "base/fonts";
+@import "base/reset";
+@import "base/variables";
+
+/*utilities*/
+@import "utilities/breakpoints";
+
+/*layout*/
+
+@import "layout/header";
+@import "layout/nav";
+@import "layout/hero";
+@import "layout/welcome";
+@import "layout/about";
+@import "layout/members";
+@import "layout/albums";
+@import "layout/videos";
+@import "layout/collaborations";
+@import "layout/news";
+@import "layout/subscribe";
+@import "layout/links";
+@import "layout/footer";
+
+/*components*/
+@import "components/button";
+@import "components/card";
+@import "components/form";
+
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: lighter;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: whitesmoke;
+}

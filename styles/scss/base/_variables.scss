@@ -1,0 +1,47 @@
+/*------------------------------------
+-----------------COLORS---------------
+------------------------------------*/
+$header-bg: #1d0039;
+$footer-bg: #3c2758;
+$footer-hr: #5b4e77;
+
+$primary-color: whitesmoke;
+$secondary-color: blueviolet;
+
+/*--SECTION--*/
+$bg-color-prim: $primary-color;
+$bg-color-sec: #d9d9d9;
+$bg-color-img: #010201;
+
+/*--FORM--*/
+$form-bg-color: #f2f2f2;
+$input-border-color: #acacac;
+
+/*--CARD--*/
+$card-bg-color: $primary-color;
+$card-border-color: #ccc;
+$card-subtitle: #666;
+
+/*--BUTTON--*/
+
+/*primary*/
+$btn-border-color-prim: #acacac;
+$btn-color-prim: $primary-color;
+$btn-bg-color-prim: $secondary-color;
+
+/*secondary*/
+$btn-border-color-sec: $secondary-color;
+$btn-color-sec: #010201;
+$btn-bg-color-sec: #eee;
+
+/*--------------------------------------
+----------------TYPOGRAPHY--------------
+--------------------------------------*/
+
+/**Font Sizing*/
+$font-size-sm: 0.75rem;
+$font-size-sm-2: 0.85rem;
+$font-size-med: 1rem;
+$font-size-med-2: 1.2rem;
+$font-size-large: 2rem;
+$font-size-xl: 3rem;

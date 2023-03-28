@@ -1,0 +1,10 @@
+/*---------------Section: Albums-----------------*/
+.section-albums {
+  padding: 50px 20px;
+  background-color: $bg-color-sec;
+
+  &__title {
+    text-align: center;
+    padding: 0 0 50px;
+  }
+}
