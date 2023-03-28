@@ -15,6 +15,10 @@
     padding: 0 0 40px 0;
   }
 
+  &__content {
+    padding: 0 0 16px 0;
+  }
+
   &__paragraph {
     padding: 0 0 16px 0;
   }
@@ -30,22 +34,47 @@
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-color: $bg-color-img;
   & img {
     width: 500px;
     border-radius: 10px;
   }
 }
 
+@include screen-sm-max {
+  .wel-article {
+    padding: 16px;
+    &__title {
+      padding: 16px 0;
+    }
+
+    &__content {
+      padding: 0 0 16px 0;
+    }
+
+    &__paragraph {
+      padding: 0 0 16px 0;
+    }
+    &__btn {
+      margin: 0px 0;
+    }
+  }
+
+  .wel-img {
+    padding: 16px 20px;
+  }
+}
+
 @include screen-lg-max {
   .wel {
-    padding: 50px 0 0;
     flex-direction: column;
   }
 
-  .wel-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  .wel-img {
+    padding: 0px 40px 16px;
+    & img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
   }
 }
