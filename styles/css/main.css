@@ -67,7 +67,7 @@ header {
     .nav__link:hover {
       color: blueviolet; }
     .nav__link--active {
-      color: blueviolet;
+      color: #6f1abe;
       font-weight: 600; }
 
 /*-- Hamburger icon */
@@ -75,7 +75,7 @@ header {
   display: none; }
 
 /* Responsiveness */
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   /* Nav menu */
   .nav {
     width: 100%;
@@ -100,7 +100,7 @@ header {
       .nav__link:hover {
         background-color: #5b4e77; }
       .nav__link--active {
-        color: blueviolet;
+        color: #6f1abe;
         font-weight: 600; }
   .nav {
     max-height: 0;
@@ -204,6 +204,8 @@ header {
   padding: 50px 40px; }
   .wel-article__title {
     padding: 0 0 40px 0; }
+  .wel-article__content {
+    padding: 0 0 16px 0; }
   .wel-article__paragraph {
     padding: 0 0 16px 0; }
   .wel-article__btn {
@@ -214,20 +216,34 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-  background-color: #010201; }
+  padding: 50px; }
   .wel-img img {
     width: 500px;
     border-radius: 10px; }
 
+@media screen and (max-width: 570px) {
+  .wel-article {
+    padding: 16px; }
+    .wel-article__title {
+      padding: 16px 0; }
+    .wel-article__content {
+      padding: 0 0 16px 0; }
+    .wel-article__paragraph {
+      padding: 0 0 16px 0; }
+    .wel-article__btn {
+      margin: 0px 0; }
+  .wel-img {
+    padding: 16px 20px; } }
+
 @media screen and (max-width: 970px) {
   .wel {
-    padding: 50px 0 0;
     flex-direction: column; }
-  .wel-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px; } }
+  .wel-img {
+    padding: 0px 40px 16px; }
+    .wel-img img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px; } }
 
 /*---------------Section: About-----------------*/
 .section-about {
@@ -253,7 +269,7 @@ header {
   .section-about__list li::before {
     content: "\2022";
     /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: blueviolet;
+    color: #6f1abe;
     /* Change the color */
     font-weight: bold;
     /* If you want it to be bold */
@@ -452,7 +468,7 @@ header {
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: #3c2758;
+  background-color: #1d0039;
   align-items: center;
   padding: 10px; }
   .footer__hr {
@@ -488,9 +504,9 @@ header {
   .btn--primary {
     border: 1px solid #acacac;
     color: whitesmoke;
-    background-color: blueviolet; }
+    background-color: #6f1abe; }
   .btn--secondary {
-    border: 2px solid blueviolet;
+    border: 2px solid #6f1abe;
     color: #010201;
     background-color: #eee; }
   .btn:hover {
