@@ -1,7 +1,7 @@
 /*base*/
+@import "base/variables"; /*It must always be first*/
 @import "base/fonts";
 @import "base/reset";
-@import "base/variables";
 
 /*utilities*/
 @import "utilities/breakpoints";
